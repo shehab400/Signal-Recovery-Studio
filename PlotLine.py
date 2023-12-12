@@ -1,10 +1,11 @@
 class PlotLine:
     Samplingfrequency=0
     MaxFrequency=0
+    Frequency=0
     magnitude=0
+    phase = 0
     data=None
     signal = None
-    Frequency=0
     name = ""
     pen = None
     data_line = None
@@ -12,9 +13,14 @@ class PlotLine:
     sampledSignal=None
     signaltime=None
     signaltype=0
-    islouded=0
+    isloaded=0
     sampledSignalTime=None
     sampledSignalAmplitude=None
     num_samples=0
     errorGraph=None
     reconstructed_signal=[]
+    isDat = 0
+    original_time=None
+    original_Amplitude=None
+    modified_time=None
+    modified_Amplitude=None
